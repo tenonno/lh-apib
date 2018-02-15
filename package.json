@@ -1,0 +1,24 @@
+{
+  "name": "lh-apib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules converter.mjs",
+    "build": "aglio --theme-template triple -i dest/api.apib -o dest/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenonno/lh-apib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenonno/lh-apib/issues"
+  },
+  "homepage": "https://github.com/tenonno/lh-apib#readme",
+  "devDependencies": {
+    "aglio": "^2.3.0"
+  }
+}
